@@ -1,0 +1,15 @@
+@media (min-width: 600px) {
+    table {
+        width: 600px;
+        margin: 0 calc(50vw - 300px);
+    }
+}
+
+th {
+    font-size: 1.2rem !important;
+    color: #000000 !important;
+}
+
+th:first-child {
+    width: 50px;
+}
