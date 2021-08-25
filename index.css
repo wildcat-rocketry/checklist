@@ -5,6 +5,12 @@
     }
 }
 
+@media (max-width: 599px) {
+    table {
+        width: 100vw;
+    }
+}
+
 th {
     font-size: 1.2rem !important;
     color: #000000 !important;

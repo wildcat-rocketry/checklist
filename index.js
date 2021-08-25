@@ -112,8 +112,8 @@ addEventListener("load", () => setTimeout(() => {
     let list = document.getElementsByClassName("mdl-checkbox__input");
     console.log(list);
     let data = [];
-    if (localStorage.data) {
-        data = JSON.parse(localStorage.data);
+    if (localStorage.learnCpp) {
+        data = JSON.parse(localStorage.learnCpp);
     }
     if (data.length != list.length) {
         data = Array.from(Array(list.length)).map(() => false);
@@ -122,7 +122,7 @@ addEventListener("load", () => setTimeout(() => {
         let el = list.item(i);
         el.addEventListener("change", () => {
             data = data.map((_, i) => list.item(i).checked);
-            localStorage.data = JSON.stringify(data);
+            localStorage.learnCpp = JSON.stringify(data);
         });
         if (data[i]) {
             el.parentElement.MaterialCheckbox.check();
