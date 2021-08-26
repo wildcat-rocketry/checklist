@@ -8,7 +8,7 @@ let checklistItems = [
             {
                 "name": "Learn C++",
                 "href": "learn-cpp",
-                "target": "checklist"
+                "target": "_self"
             }
         ]
     }
