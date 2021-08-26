@@ -8,12 +8,12 @@ checklistItems.forEach(part => {
     document.write("        </tr>");
     document.write("    </thead>");
     document.write("    <tbody>");
-    part.courses.forEach(course => {
+    part.items.forEach(item => {
         document.write("    <tr>");
         document.write("        <td class=\"mdl-data-table__cell--non-numeric\">");
-        document.write(`    <a href=\"${course.href}\" target="${course.target}">`);
-        document.write(`            ${course.name}`);
-        document.write("    </a>");
+        document.write(`            <a href=\"${item.href}\" target="${item.target}">`);
+        document.write(`                ${item.name}`);
+        document.write("            </a>");
         document.write("        </td>");
         document.write("    </tr>");
     });

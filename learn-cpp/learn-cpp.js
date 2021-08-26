@@ -4,7 +4,7 @@ let checklistName = "learn-cpp";
 let checklistItems = [
     {
         "name": "Introduction",
-        "courses": [
+        "items": [
             {
                 "name": "Exercise: Say \"Hello, World!\" with C++",
                 "href": "https://www.hackerrank.com/challenges/cpp-hello-world/problem",
@@ -49,7 +49,7 @@ let checklistItems = [
     },
     {
         "name": "Classes",
-        "courses": [
+        "items": [
             {
                 "name": "Exercise: StringStream",
                 "href": "https://www.hackerrank.com/challenges/c-tutorial-stringstream/problem",
@@ -94,7 +94,7 @@ let checklistItems = [
     },
     {
         "name": "Inheritance",
-        "courses": [
+        "items": [
             {
                 "name": "Exercise: Inheritance Introduction",
                 "href": "https://www.hackerrank.com/challenges/inheritance-introduction/problem",
@@ -119,7 +119,7 @@ let checklistItems = [
     },
     {
         "name": "Other Concepts",
-        "courses": [
+        "items": [
             {
                 "name": "Microsoft Docs: try, throw, and catch Statements",
                 "href": "https://docs.microsoft.com/en-us/cpp/cpp/try-throw-and-catch-statements-cpp",
